@@ -1,0 +1,16 @@
+#!/bin/bash
+
+_invokeDualp() {
+
+	java -jar /home/sunrise/bin/jarfiles/dualp.jar $1 $2 $3 $4
+
+}
+
+SOURCE=$1
+OUTPUT=$2
+
+HEAD="/mnt/c/DualWriter/HeadTails/HeadTailConfig1/head"
+TAIL="/mnt/c/DualWriter/HeadTails/HeadTailConfig1/tail"
+
+# EXECUTION
+_invokeDualp $SOURCE $HEAD $TAIL $OUTPUT

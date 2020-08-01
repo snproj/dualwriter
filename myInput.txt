@@ -1,0 +1,25 @@
+\\1UNIX was originally developed by Ken Thompson on a little-used PDP-7. The justification for the purchase of a PDP-11/20 for the second version was to provide a text editing and formatting system. The purpose of that system was to develop, maintain, and track documents and memos within the telephone company (AT&T/Bell Telephone).
+
+\\2This is a new line
+
+Many products are available for text editing and formatting for the PC, including Microsoft Word and WordPerfect. Versions of these products and others are available for UNIX systems, but the most common are the nroff and troff text processors. nroff stands for "next run-off," and troff stands for "typesetter run-off," both of which are based on roff ("run-off"). The original version of RUNOFF was developed by J. E. Saltzer for the CTSS operating system effort at MIT during the 1960s. Most text processors can trace their beginnings to the original RUNOFF; they include SCRIPT (for IBM mainframes), Scribe (by Brian Reid), DSR (Digital Standard Runoff), Donald Knuth's Tex, and, of course, UNIX roff
+
+\\1In the early 1970s, Joe Ossanna rewrote roff to produce nroff. He added flexibility and an internal programming language to aid in document formatting. nroff was enhanced (and renamed troff) to support the Graphics Systems CAT typesetter with multiple fonts, font sizes, and additional characters that regular printers did not support.
+
+\\sIn 1979, Brian Kernighan rewrote troff to support more typesetting machines. Although alternatives were investigated, the Bell Labs portion of the telephone company had already invested a great deal of effort in troff, including macro packages and preprocessors that made document preparation easier for users. One of these macro packages is used to format the UNIX manual pages.
+
+\\d@@atroff and nroff are closely related. They both use the same set of commands to format text. The biggest exception is that nroff does not support commands for changing character fonts and sizes; it supports a limited number of character set changes. nroff also provides ASCII output, so you can see the results of an nroff command onscreen. Although third-party products can show the results of a troff command onscreen if they have graphics capabilities, on a standard UNIX system, the only way to see the exact troff output is to send it to a printer. (troff can produce only an approximation of its output to normal terminals.
+
+output is to send it to a printer. (troff can produce only an approximation of its output to normal terminals.)
+
+output is to send it to a printer. (troff can produce only an approximation of its output to normal terminals.)
+
+@@bPrinted files look different, depending on whether they are formatted with nroff or troff. In general, files printed using nroff exhibit the following characteristics: All values are treated as a number of character positions (spaces) or line spaces. Vertical space is in multiples of a full linespace. Tabs are set every eight characters by default. Certain troff requests are not available (for example, .fp, .lg, .ss). Text in italic font is underlined; text in bold font is emboldened by overstriking. Point size and vertical space requests (.ps and .vs) are ignored. Right-margin justification is turned off for the mm macros. In addition, the default left margin is flush with the left edge of the physical pag
+
+\\1Printed files look different, depending on whether they are formatted with nroff or troff. In general, files printed using nroff exhibit the following characteristics: All values are treated as a number of character positions (spaces) or line spaces. Vertical space is in multiples of a full linespace. Tabs are set every eight characters by default. Certain troff requests are not available (for example, .fp, .lg, .ss). Text in italic font is underlined; text in bold font is emboldened by overstriking. Point size and vertical space requests (.ps and .vs) are ignored. Right-margin justification is turned off for the mm macros. In addition, the default left margin is flush with the left edge of the physical page
+
+Hello there
+
+This was unexpected…
+
+in bold font is emboldened by overstriking. Point size and vertical space requests (.ps and .vs) are ignored. Right-margin justification is turned off for the mm macros. In addition, the default left margin is flush with the left edge of the physical page
