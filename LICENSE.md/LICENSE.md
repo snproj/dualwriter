@@ -9,7 +9,7 @@ This software is:
 2. Free to use STRICTLY AS-IS
 3. Free to distribute STRICTLY AS-IS, AND under condition that no monetary gain is made through said distribution
 
-4. NOT free to modify in any way
+4. Free to modify ONLY for strictly personal use. Any derivative product from this software is NOT free to be distributed in any way, shape or form.
 
 5. Users interact with this software at their OWN RISK ONLY; NO RESPONSIBILITY IS TAKEN for damages caused related in any way to the use of this software.
 6. By interacting with this software, you take note of and acknowledge that this license might change for future versions of this software without notification.
