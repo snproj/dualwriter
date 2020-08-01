@@ -15,21 +15,22 @@ Things not included which you'll need to use, but you don't have to care about h
 ## Usage
 Steps:
   1. Write your text file (I'll call mine myInput.txt) using the markup notation (detailed later).
-  2. Put that text file, the dualp.jar file, the "head" file and the "tail" file all in one folder (I'll call mine MyFolder).
-  3.
+  2. Put that text file, the dualp.jar file, the "head" file and the "tail" file all in one folder.
+  3. Open your command prompt and go to that folder (google the 'cd' command lol).
+  4. Now, type in the command prompt:
   ```bash
-  # Let's say the name of the file you wanna output is myFile.html
+  # Let's say the name of the file you wanna output is myOutput.html
   java -jar dualp.jar myInput.txt head tail myFile.html
   ```
   
-  A new file called myFile.html should appear in the same folder. Now, because it's an .html file (the same kind of file all browsers view), you need to open myFile.html in your browser. So...
+  A new file called myOutput.html should appear in the same folder. Now, because it's an .html file (the same kind of file all browsers view), you need to open myOutput.html in your browser. So...
   4. Open whatever browser you have
   5. Key into the address bar:
   ```bash
-  C:\MyFolder\myFile.html
+  C:\MyFolder\myOutput.html
   ```
   
-  This is called the path to myFile.html.
+  This is called the _path_ to myOutput.html.
   6. That's all. You should now see the document in dual-writer format in your browser. Of course, this software is crappily written, so if it doesn't work, it might not be your fault lol
   
   
