@@ -1,6 +1,8 @@
 # dualwriter
 Hello, writers; this is a terrible, very makeshift program for writing in a double-author structure using a laughably basic notation. Outputs in HTML (browser format) of all things.
 
+The intended result is that you put this .html file through some html-to-pdf converter to get an actually usable .pdf file lol
+
 ## What you'll need
 Things included which you'll need to download and use, but you don't have to care about how they work:
   1. dualp.jar file (stands for dualwriter-parser)
