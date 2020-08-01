@@ -14,12 +14,12 @@ Things not included which you'll need to use, but you don't have to care about h
 
 ## Usage
 Steps:
-  1. Write your text file using the markup notation (detailed later).
+  1. Write your text file (I'll call mine myInput.txt) using the markup notation (detailed later).
   2. Put that text file, the dualp.jar file, the "head" file and the "tail" file all in one folder (I'll call mine MyFolder).
   3.
   ```bash
   # Let's say the name of the file you wanna output is myFile.html
-  java -jar dualp.jar head tail myFile.html
+  java -jar dualp.jar myInput.txt head tail myFile.html
   ```
   
   A new file called myFile.html should appear in the same folder. Now, because it's an .html file (the same kind of file all browsers view), you need to open myFile.html in your browser. So...
