@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SampleText
+        </title>
+
+        <meta charset="UTF-8">
+
+        <style>
+            body {
+                font-size: 12pt;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+
+            .first {
+                direction: ltr;
+                text-align: justify;
+                margin-right: 10%;
+                margin-bottom: 1em;
+            }
+
+            .second {
+                direction: rtl;
+                text-align: justify;
+                margin-left: 10%;
+                margin-bottom: 1em;
+            }
+
+            .simul {
+                text-align: center;
+                margin-right: 10%;
+                margin-left: 10%;
+                margin-bottom: 1em;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 1em;
+            }
+
+            .itemFirst {
+                direction: ltr;
+                flex: 1;
+                text-align: justify;
+                margin-right: 5%;
+            }
+
+            .itemSecond {
+                direction: rtl;
+                flex: 1;
+                text-align: justify;
+                margin-left: 5%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+
+        <article>
+<div class="first"><br>this is the first person<br><br></div><div class="second"><br>this is the second person<br><br></div><div class="first"><br>this it the first person speaking again<br><br></div><div class="simul"><br>this is supposed to be a simul<br><br>This is a new line of text.<br><br></div><div class="container"><div class="itemFirst"><br>first person duet<br><br></div><div class="itemSecond"><br>second person duel and some other lines below<br><br>hihi<br><br>byebye<br><br></div></div><div class="first"><br>First person says something.<br></div></article>
+
+</body>
+</html>
