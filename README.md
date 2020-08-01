@@ -19,12 +19,14 @@ Steps:
   # Let's say the name of the file you wanna output is myFile.html
   java -jar dualp.jar head tail myFile.html
   ```
+  
     A new file called myFile.html should appear in the same folder. Now, because it's an .html file (the same kind of file all browsers view), you need to open myFile.html in your browser. So...
   4. Open whatever browser you have
   5. Key into the address bar:
   ```bash
   C:\MyFolder\myFile.html
   ```
+  
     This is called the path to myFile.html.
   6. That's all. You should now see the document in dual-writer format in your browser. Of course, this software is crappily written, so if it doesn't work, it might not be your fault lol
   
@@ -36,18 +38,21 @@ For example:
 ```bash
 \\1This is the first person speaking.
 ```
+
 ## \\2
 Write for the second person. (Justified and shifted to the right of the page.)
 For example:
 ```bash
 \\2This is the second person speaking.
 ```
+
 ## \\s
 Write text in the middle of the two (Not justified, shrunk to the middle of the page.)
 By the way, 's' stands for "simul" (because I thought of it like two people speaking together).
 ```bash
 \\sNow we're talking together.
 ```
+
 ## \\d
 Ok, this is also for two people speaking together, but each saying their own thing.
 The text belonging to each person will lean to their respective sides.
@@ -61,6 +66,7 @@ For example:
 \\d@@aI want to talk! Stop talking over me!
 @@bI'm still talking... Blah blah blah.
 ```
+
 # Problems
 Watch out for:
   - Every space is counted as part of the main text body (you've probably realized there's no spaces in \\1Hello, for example)
