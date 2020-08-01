@@ -69,9 +69,9 @@ For example:
 
 ## Problems
 Watch out for:
-  - Every space is counted as part of the main text body (you've probably realized there's no spaces in \\1Hello, for example)
-  - Every newline is counted, or at least does affect the .html file (so technically, "\\d@@aI want to talk! Stop talking over me!@@bI'm still talking... Blah blah blah." should be exactly like that, with no newlines nor spaces between speakers, but meh readability matters too... idk you decide. At this point, I'm not even sure browsers really take note of this slight difference.)
-  - I haven't yet made escape sequences if by any chance you need to write "\\" or "@@" as part of your passage body itself for some reason lol
+  - Every space is counted as part of the main text body (you've probably realized there's no spaces in `\\1Hello`, for example)
+  - Every newline is counted, or at least does affect the .html file (so technically, `\\d@@aI want to talk! Stop talking over me!@@bI'm still talking... Blah blah blah.` should be exactly like that, with no newlines nor spaces between speakers, but meh readability matters too... idk you decide. At this point, I'm not even sure browsers really take note of this slight difference.)
+  - I haven't yet made escape sequences if by any chance you need to write "\\\\" or "@@" as part of your passage body itself for some reason lol
   
 ## License & Contributing
 See LICENSE.md
